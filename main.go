@@ -96,8 +96,8 @@ func generateFile(hash string) {
 func printHelp() {
 	fmt.Println("Commit to file")
 	fmt.Println()
-	fmt.Println("     help     - Prints this list")
-	fmt.Println("     generate - Generates markdown file with commit provided by the hash")
+	fmt.Println("     help            - Prints this list")
+	fmt.Println("     generate <hash> - Generates markdown file with commit provided by the hash")
 	fmt.Println()
 }
 
